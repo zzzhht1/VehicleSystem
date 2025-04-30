@@ -1,0 +1,12 @@
+E:\桌面\车辆管理系统\VehicleSystem.Core\bin\Debug\net8.0\VehicleSystem.Core.deps.json
+E:\桌面\车辆管理系统\VehicleSystem.Core\bin\Debug\net8.0\VehicleSystem.Core.dll
+E:\桌面\车辆管理系统\VehicleSystem.Core\bin\Debug\net8.0\VehicleSystem.Core.pdb
+E:\桌面\车辆管理系统\VehicleSystem.Core\obj\Debug\net8.0\VehicleSystem.Core.csproj.AssemblyReference.cache
+E:\桌面\车辆管理系统\VehicleSystem.Core\obj\Debug\net8.0\VehicleSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\桌面\车辆管理系统\VehicleSystem.Core\obj\Debug\net8.0\VehicleSystem.Core.AssemblyInfoInputs.cache
+E:\桌面\车辆管理系统\VehicleSystem.Core\obj\Debug\net8.0\VehicleSystem.Core.AssemblyInfo.cs
+E:\桌面\车辆管理系统\VehicleSystem.Core\obj\Debug\net8.0\VehicleSystem.Core.csproj.CoreCompileInputs.cache
+E:\桌面\车辆管理系统\VehicleSystem.Core\obj\Debug\net8.0\VehicleSystem.Core.dll
+E:\桌面\车辆管理系统\VehicleSystem.Core\obj\Debug\net8.0\refint\VehicleSystem.Core.dll
+E:\桌面\车辆管理系统\VehicleSystem.Core\obj\Debug\net8.0\VehicleSystem.Core.pdb
+E:\桌面\车辆管理系统\VehicleSystem.Core\obj\Debug\net8.0\ref\VehicleSystem.Core.dll

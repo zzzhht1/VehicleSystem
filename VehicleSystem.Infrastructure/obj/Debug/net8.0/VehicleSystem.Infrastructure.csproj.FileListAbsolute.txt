@@ -1,0 +1,5 @@
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\VehicleSystem.Infrastructure.csproj.AssemblyReference.cache
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\VehicleSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\VehicleSystem.Infrastructure.AssemblyInfoInputs.cache
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\VehicleSystem.Infrastructure.AssemblyInfo.cs
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\VehicleSystem.Infrastructure.csproj.CoreCompileInputs.cache
