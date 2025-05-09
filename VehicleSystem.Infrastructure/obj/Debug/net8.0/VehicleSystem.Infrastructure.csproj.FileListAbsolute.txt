@@ -3,3 +3,14 @@ E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\Vehic
 E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\VehicleSystem.Infrastructure.AssemblyInfoInputs.cache
 E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\VehicleSystem.Infrastructure.AssemblyInfo.cs
 E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\VehicleSystem.Infrastructure.csproj.CoreCompileInputs.cache
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\bin\Debug\net8.0\VehicleSystem.Infrastructure.deps.json
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\bin\Debug\net8.0\VehicleSystem.Infrastructure.dll
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\bin\Debug\net8.0\VehicleSystem.Infrastructure.pdb
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\bin\Debug\net8.0\VehicleSystem.Core.dll
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\bin\Debug\net8.0\VehicleSystem.Core.pdb
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\VehicleSystem.Infrastructure.sourcelink.json
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\VehicleS.7E88CB25.Up2Date
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\VehicleSystem.Infrastructure.dll
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\refint\VehicleSystem.Infrastructure.dll
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\VehicleSystem.Infrastructure.pdb
+E:\桌面\车辆管理系统\VehicleSystem.Infrastructure\obj\Debug\net8.0\ref\VehicleSystem.Infrastructure.dll

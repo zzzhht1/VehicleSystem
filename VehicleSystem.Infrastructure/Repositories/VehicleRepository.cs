@@ -5,7 +5,9 @@ using Microsoft.EntityFrameworkCore;  // EF Core核心功能
 using System.Linq.Expressions;       // 表达式树用于动态查询条件
 using VehicleSystem.Infrastructure.Data; // 数据库上下文
 using System.Collections.Generic;    // 集合类支持
-using System.Threading.Tasks;        // 异步编程支持
+using System.Threading.Tasks;
+using System.Linq;
+using System;        // 异步编程支持
 
 namespace VehicleSystem.Infrastructure.Repositories;
 
@@ -43,9 +45,12 @@ public class VehicleRepository : IVehicleRepository
     /// （使用无跟踪查询优化只读场景性能）
     /// </summary>
     /// <returns>车辆实体集合</returns>
-    public async Task<IEnumerable<Vehicle>> GetAllAsync()
+    public async Task<IEnumerable<Vehicle>> GetAllAsync(string searchTerm = null)
     {
-        return await _context.Vehicles
+        var query = _context.Vehicles
+            .Where(v => string.IsNullOrEmpty(searchTerm) || v.PlateNumber.Contains(searchTerm));
+
+        return await query
             .Where(v => !v.IsDeleted)        // 过滤已删除记录
             .AsNoTracking()                 // 禁用变更跟踪，提升查询性能
             .ToListAsync();                 // 异步转换为列表
@@ -118,6 +123,10 @@ public class VehicleRepository : IVehicleRepository
         GetPagedListAsync(int pageNumber, int pageSize, 
         Expression<Func<Vehicle, bool>> predicate = null)
     {
+        // 参数验证前置
+        if (pageNumber < 1) throw new ArgumentException("页码不能小于1", nameof(pageNumber));
+        if (pageSize < 1 || pageSize > 100) throw new ArgumentException("每页数量需在1-100之间", nameof(pageSize));
+
         // 基础查询：过滤已删除记录
         var query = _context.Vehicles
             .Where(v => !v.IsDeleted)
