@@ -41,9 +41,33 @@
         }, 300));
     });
 
+    $(document).on('click', '.btn-delete', function() {
+        const vehicleId = $(this).data('id'); // 从按钮获取id，按钮id已同步对应车辆id
+
+        if (confirm(`确定要删除这辆车吗 (ID: ${vehicleId})?`)) {
+            $.ajax({
+                url: '?handler=DeleteVehicle', // 调用后端，进行软删除
+                type: 'GET',
+                data: { id: vehicleId },
+                success: function(response) {
+                    if (response.success) {
+                        alert('车辆删除成功!');
+                        loadData(); // 重新加载表格数据
+                    } else {
+                        alert('删除失败: ' + (response.message || '未知错误'));
+                    }
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.error("AJAX error:", textStatus, errorThrown);
+                    alert('标记删除操作时与服务器通信发生错误。');
+                }
+            });
+        }
+    });
+
     function loadData() {
         $.ajax({
-            url: '?handler=AsyncData',
+            url: '?handler=AsyncData', //调用后端，获取车辆数据
             data: {
                 pageNumber: currentPage,
                 pageSize: pageSize,
@@ -62,7 +86,14 @@
             <thead>
                 <tr>
                     <th>牌照</th>
+                    <th>类型</th>
+                    <th>品牌</th>
+                    <th>颜色</th>
+                    <th>燃油类型</th>
+                    <th>座位数</th>
+                    <th>里程数</th>
                     <th>状态</th>
+                    <th>车主</th>
                     <th>操作</th>
                 </tr>
             </thead>
@@ -71,10 +102,18 @@
         vehicles.forEach(v => {
             html += `<tr>
                 <td>${v.plateNumber}</td>
-                        <td>${v.status}</td> <!-- 注意 Status 首字母大写 -->
+                <td>${v.type}</td>
+                <td>${v.brand}</td>
+                <td>${v.color}</td>
+                <td>${v.fuelType}</td>
+                <td>${v.seatCapacity}</td>
+                <td>${v.mileage}</td>
+                <td>${v.statuss}</td>
+                <td>${v.ownerId}</td>
+                
                 <td>
-                    <button class="btn btn-sm btn-primary">编辑</button>
-                    <button class="btn btn-sm btn-danger">删除</button>
+                    <button class="btn btn-sm btn-primary btn-edit" data-id="${v.id}">编辑</button>
+                    <button class="btn btn-sm btn-danger btn-delete" data-id="${v.id}">删除</button>
                 </td>
             </tr>`;
         });
@@ -83,6 +122,7 @@
         $('#vehicleTable').html(html);
     }
 
+	// 渲染分页
     function renderPagination(totalCount) {
         const totalPages = Math.ceil(totalCount / pageSize);
         let html = '';

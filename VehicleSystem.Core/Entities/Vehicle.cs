@@ -8,10 +8,12 @@ namespace VehicleSystem.Core.Entities;
 [Table("VehicleInfo")] // 对应数据库表名
 public class Vehicle
 {
-    [Key]
+
+    public int Id { get; set; }
+
     [Required]
     [MaxLength(20)]
-    [Column("plateNumber")]
+    //[Column("plateNumber")]
     [Display(Name = "车牌号")]
     public string PlateNumber { get; set; }  // 主键
 
@@ -41,9 +43,8 @@ public class Vehicle
     [Display(Name = "里程数")]
     public int Mileage { get; set; } = 0;  // 默认值
 
-    [MaxLength(10)]
     [Display(Name = "状态")]
-    public string Status { get; set; } = "可用";  // 默认值
+    public VehicleStatus Status { get; set; } = 0;  // 默认值
 
     [MaxLength(20)]
     [Display(Name = "车主ID")]

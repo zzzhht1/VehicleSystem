@@ -55,18 +55,25 @@ namespace VehicleSystem.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Vehicles",
+                name: "VehicleInfo",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     PlateNumber = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
-                    Status = table.Column<int>(type: "int", nullable: false),
+                    Type = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
+                    Brand = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
+                    Color = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
+                    FuelType = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: false),
+                    SeatCapacity = table.Column<int>(type: "int", nullable: false),
+                    Mileage = table.Column<int>(type: "int", nullable: false),
+                    Status = table.Column<string>(type: "nvarchar(10)", maxLength: 10, nullable: true),
+                    OwnerId = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     IsDeleted = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Vehicles", x => x.Id);
+                    table.PrimaryKey("PK_VehicleInfo", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -215,8 +222,8 @@ namespace VehicleSystem.Infrastructure.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Vehicles_PlateNumber",
-                table: "Vehicles",
+                name: "IX_VehicleInfo_PlateNumber",
+                table: "VehicleInfo",
                 column: "PlateNumber",
                 unique: true);
         }
@@ -240,7 +247,7 @@ namespace VehicleSystem.Infrastructure.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "Vehicles");
+                name: "VehicleInfo");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
