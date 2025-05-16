@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8EBE6AA4-278D-499B-9EC9-C1FDAC8FA90C}|VehicleSystem.Web\\VehicleSystem.Web.csproj|e:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\vehiclesystem.web\\pages\\vehicles\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8EBE6AA4-278D-499B-9EC9-C1FDAC8FA90C}|VehicleSystem.Web\\VehicleSystem.Web.csproj|solutionrelative:vehiclesystem.web\\pages\\vehicles\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCA4652A-0454-476B-B333-B9E39F8FC442}|VehicleSystem.Infrastructure\\VehicleSystem.Infrastructure.csproj|e:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\vehiclesystem.infrastructure\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCA4652A-0454-476B-B333-B9E39F8FC442}|VehicleSystem.Infrastructure\\VehicleSystem.Infrastructure.csproj|solutionrelative:vehiclesystem.infrastructure\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13313F7E-7636-46A6-A5FA-9E6E9A589A3B}|VehicleSystem.Core\\VehicleSystem.Core.csproj|e:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\vehiclesystem.core\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13313F7E-7636-46A6-A5FA-9E6E9A589A3B}|VehicleSystem.Core\\VehicleSystem.Core.csproj|solutionrelative:vehiclesystem.core\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EBE6AA4-278D-499B-9EC9-C1FDAC8FA90C}|VehicleSystem.Web\\VehicleSystem.Web.csproj|e:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\vehiclesystem.web\\pages\\vehicles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8EBE6AA4-278D-499B-9EC9-C1FDAC8FA90C}|VehicleSystem.Web\\VehicleSystem.Web.csproj|solutionrelative:vehiclesystem.web\\pages\\vehicles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCA4652A-0454-476B-B333-B9E39F8FC442}|VehicleSystem.Infrastructure\\VehicleSystem.Infrastructure.csproj|e:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\vehiclesystem.infrastructure\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCA4652A-0454-476B-B333-B9E39F8FC442}|VehicleSystem.Infrastructure\\VehicleSystem.Infrastructure.csproj|solutionrelative:vehiclesystem.infrastructure\\repositories\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8EBE6AA4-278D-499B-9EC9-C1FDAC8FA90C}|VehicleSystem.Web\\VehicleSystem.Web.csproj|e:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\vehiclesystem.web\\pages\\vehicles\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8EBE6AA4-278D-499B-9EC9-C1FDAC8FA90C}|VehicleSystem.Web\\VehicleSystem.Web.csproj|solutionrelative:vehiclesystem.web\\pages\\vehicles\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13313F7E-7636-46A6-A5FA-9E6E9A589A3B}|VehicleSystem.Core\\VehicleSystem.Core.csproj|e:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\vehiclesystem.core\\interfaces\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13313F7E-7636-46A6-A5FA-9E6E9A589A3B}|VehicleSystem.Core\\VehicleSystem.Core.csproj|solutionrelative:vehiclesystem.core\\interfaces\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13313F7E-7636-46A6-A5FA-9E6E9A589A3B}|VehicleSystem.Core\\VehicleSystem.Core.csproj|e:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\vehiclesystem.core\\enums\\vehiclestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13313F7E-7636-46A6-A5FA-9E6E9A589A3B}|VehicleSystem.Core\\VehicleSystem.Core.csproj|solutionrelative:vehiclesystem.core\\enums\\vehiclestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EBE6AA4-278D-499B-9EC9-C1FDAC8FA90C}|VehicleSystem.Web\\VehicleSystem.Web.csproj|e:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\vehiclesystem.web\\pages\\vehicles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8EBE6AA4-278D-499B-9EC9-C1FDAC8FA90C}|VehicleSystem.Web\\VehicleSystem.Web.csproj|solutionrelative:vehiclesystem.web\\pages\\vehicles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\u9700\u6C42\u5206\u6790.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -44,7 +48,7 @@
               "RelativeDocumentMoniker": "VehicleSystem.Core\\Entities\\Vehicle.cs",
               "ToolTip": "E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\VehicleSystem.Core\\Entities\\Vehicle.cs",
               "RelativeToolTip": "VehicleSystem.Core\\Entities\\Vehicle.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBEAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBEAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T07:08:50.05Z",
               "IsPinned": true,
@@ -52,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\VehicleSystem.Web\\Pages\\Vehicles\\Index.cshtml",
               "RelativeDocumentMoniker": "VehicleSystem.Web\\Pages\\Vehicles\\Index.cshtml",
@@ -61,18 +65,17 @@
               "ViewState": "AgIAADYAAAAAAAAAAAAowEUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-07T08:13:21.547Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\VehicleSystem.Web\\Pages\\Vehicles\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "VehicleSystem.Web\\Pages\\Vehicles\\Index.cshtml.cs",
               "ToolTip": "E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\VehicleSystem.Web\\Pages\\Vehicles\\Index.cshtml.cs",
               "RelativeToolTip": "VehicleSystem.Web\\Pages\\Vehicles\\Index.cshtml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAUwFUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-07T07:41:26.7Z",
               "IsPinned": true,
@@ -80,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\u9700\u6C42\u5206\u6790.txt",
               "DocumentMoniker": "E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\u9700\u6C42\u5206\u6790.txt",
               "RelativeDocumentMoniker": "\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\u9700\u6C42\u5206\u6790.txt",
@@ -89,18 +92,17 @@
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAFoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-05-14T01:50:35.937Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IVehicleRepository.cs",
               "DocumentMoniker": "E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\VehicleSystem.Core\\Interfaces\\IVehicleRepository.cs",
               "RelativeDocumentMoniker": "VehicleSystem.Core\\Interfaces\\IVehicleRepository.cs",
               "ToolTip": "E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\VehicleSystem.Core\\Interfaces\\IVehicleRepository.cs",
               "RelativeToolTip": "VehicleSystem.Core\\Interfaces\\IVehicleRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T03:23:35.337Z",
               "IsPinned": true,
@@ -108,16 +110,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "VehicleRepository.cs",
               "DocumentMoniker": "E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\VehicleSystem.Infrastructure\\Repositories\\VehicleRepository.cs",
               "RelativeDocumentMoniker": "VehicleSystem.Infrastructure\\Repositories\\VehicleRepository.cs",
               "ToolTip": "E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\VehicleSystem.Infrastructure\\Repositories\\VehicleRepository.cs",
               "RelativeToolTip": "VehicleSystem.Infrastructure\\Repositories\\VehicleRepository.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAYwIgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAADwv2EAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T03:22:39.861Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VehicleStatus.cs",
+              "DocumentMoniker": "E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\VehicleSystem.Core\\Enums\\VehicleStatus.cs",
+              "RelativeDocumentMoniker": "VehicleSystem.Core\\Enums\\VehicleStatus.cs",
+              "ToolTip": "E:\\\u684C\u9762\\\u8F66\u8F86\u7BA1\u7406\u7CFB\u7EDF\\VehicleSystem.Core\\Enums\\VehicleStatus.cs",
+              "RelativeToolTip": "VehicleSystem.Core\\Enums\\VehicleStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:00:43.353Z",
               "EditorCaption": ""
             },
             {

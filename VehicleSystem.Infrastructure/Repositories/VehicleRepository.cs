@@ -8,6 +8,7 @@ using System.Collections.Generic;    // 集合类支持
 using System.Threading.Tasks;
 using System.Linq;
 using System;        // 异步编程支持
+using VehicleSystem.Core.Enums; // 引入软删除结果枚举
 
 namespace VehicleSystem.Infrastructure.Repositories;
 
@@ -98,13 +99,29 @@ public class VehicleRepository : IVehicleRepository
     /// 软删除车辆（标记IsDeleted为true）
     /// </summary>
     /// <param name="id">要删除的车辆ID</param>
-    public async Task DeleteAsync(int id)
+    public async Task<SoftDeleteResult> DeleteAsync(int id)
     {
-        var vehicle = await GetByIdAsync(id);  // 先获取实体
-        if (vehicle != null)
+        try
         {
-            vehicle.IsDeleted = true;         // 修改删除标记
+            var vehicle = await GetByIdAsync(id); // 或者你现有的 GetByIdAsync
+            if (vehicle == null)
+            {
+                return SoftDeleteResult.NotFound;
+            }
+
+            if (vehicle.IsDeleted)
+            {
+                return SoftDeleteResult.AlreadyDeleted; // 表示车辆已经是删除状态，无需操作
+            }
+
+            vehicle.IsDeleted = true;
             await _context.SaveChangesAsync(); // 提交软删除操作
+            return SoftDeleteResult.Success;
+        }
+        catch (Exception ex) // 最好记录日志
+        {
+            Console.WriteLine($"Error during soft delete for vehicle ID {id}: {ex.Message}");
+            return SoftDeleteResult.Error;
         }
     }
 

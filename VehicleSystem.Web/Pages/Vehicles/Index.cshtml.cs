@@ -36,7 +36,8 @@ public class IndexModel : PageModel
     */
 
     // 处理 AJAX 请求
-    // 获取车辆数据
+
+    // 处理页面加载
     public async Task<JsonResult> OnGetAsyncData(int pageNumber = 1, int pageSize = 10)
     {
         // 定义筛选条件
